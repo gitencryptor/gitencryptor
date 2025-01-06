@@ -1,16 +1,15 @@
-## Hi there 👋
+# GitEncryptor
 
-<!--
-**gitencryptor/gitencryptor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+GitEncryptor is a Python-based tool designed to securely manage and protect sensitive data within GitHub repositories, whether public or private. By combining best practices in cryptographic design and software engineering, GitEncryptor ensures data privacy and security, even in cloud environments where data custody may not be fully under the control of the data owner.
 
-Here are some ideas to get you started:
+## Features
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **AES-256 Encryption**: Strong encryption using the AES-256 algorithm to secure sensitive files before uploading to GitHub.
+- **File Integrity Check**: Automatically checks and verifies the integrity of files in the repository using MD5 hashes.
+- **Modular Codebase**: A modular design that separates concerns into different classes, making the codebase maintainable and easy to extend.
+- **Cloud-Friendly**: Provides data protection in cloud environments, ensuring that the owner’s data remains private.
+- **Easy CLI Integration**: Supports command-line arguments for easy interaction, including options to encrypt/decrypt files.
+  
+## Requirements
+
+- Python 3.x
