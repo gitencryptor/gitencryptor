@@ -18,7 +18,13 @@ GitEncryptor is a CLI tool written in Python that encrypts files before uploadin
 ## 🔧 Configuration
 
 - Before using GitEncryptor, you must create a `config.json` file in the same directory as the tool. This file is required for authentication with GitHub.
-  
+
+### Example `config.json`
+```json
+{
+  "username": "your-username",
+  "token": "your-github-token"
+}
 
 ## 📜 Command Line Options
 
