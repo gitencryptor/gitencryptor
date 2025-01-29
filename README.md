@@ -10,21 +10,9 @@ GitEncryptor is a CLI tool written in Python that encrypts files before uploadin
 - 🔑 **On-Demand Decryption** – Downloads and decrypts files directly from GitHub.
 - ⚡ **Simple CLI Interface** – Easy-to-use command-line parameters.
 
-## 🚀 Installation
+## ⚙️ Prerequisites
 
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/your-username/GitEncryptor.git
-cd GitEncryptor
-pip install -r requirements.txt
-```
-
-Or install directly via pip:
-
-```bash
-pip install git+https://github.com/your-username/GitEncryptor.git
-```
+- Python 3.x: Ensure that Python 3 is installed on your system before using GitEncryptor
 
 ## 🛠 Usage
 
