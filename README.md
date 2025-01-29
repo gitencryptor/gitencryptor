@@ -40,7 +40,7 @@ GitEncryptor is a CLI tool written in Python that encrypts files before uploadin
 | `--decrypt_url_batch_file`    | Downloads and decrypts multiple files from GitHub. |
 | `--decrypt_url_repo`          | Downloads and decrypts an entire repository from GitHub. |
 | `--dest_dir`                  | Defines the local directory for saving decrypted files. |
-| `--time`                      | Measures execution time for operations. |
+| `--time`                      | Measures the execution time of operations in seconds.. |
 
 
 ## 🛠 Usage
