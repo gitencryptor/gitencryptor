@@ -48,49 +48,49 @@ GitEncryptor is a CLI tool written in Python that encrypts files before uploadin
 ### 1️⃣ Encrypt and upload a single file
 
 ```bash
-python3 script66.py --encrypt_file /path/to/file.pdf --target_repo_url https://github.com/user/repository/ --time
+python3 gitencryptor.py --encrypt_file /path/to/file.pdf --target_repo_url https://github.com/user/repository/ --time
 ```
 
 ### 2️⃣ Download and decrypt a single file
 
 ```bash
-python3 script66.py --decrypt_url_file_repo https://github.com/user/repository/blob/main/file.pdf --dest_dir /destination/path --time
+python3 gitencryptor.py --decrypt_url_file_repo https://github.com/user/repository/blob/main/file.pdf --dest_dir /destination/path --time
 ```
 
 If the file has a specific hash:
 
 ```bash
-python3 script66.py --decrypt_url_file_repo https://github.com/user/repository/blob/<hash>/file.pdf --dest_dir /destination/path --time
+python3 gitencryptor.py --decrypt_url_file_repo https://github.com/user/repository/blob/<hash>/file.pdf --dest_dir /destination/path --time
 ```
 
 ### 3️⃣ Encrypt and upload multiple files
 
 ```bash
-python3 script66.py --encrypt_batch_file /path/file1.pdf /path/image.jpg /path/image.png --target_repo_url https://github.com/user/repository/ --time
+python3 gitencryptor.py --encrypt_batch_file /path/file1.pdf /path/image.jpg /path/image.png --target_repo_url https://github.com/user/repository/ --time
 ```
 
 ### 4️⃣ Download and decrypt multiple files
 
 ```bash
-python3 script66.py --decrypt_url_batch_file https://github.com/user/repository/blob/main/file1.pdf https://github.com/user/repository/blob/main/image.jpg https://github.com/user/repository/blob/main/image.png --dest_dir /destination/path --time
+python3 gitencryptor.py --decrypt_url_batch_file https://github.com/user/repository/blob/main/file1.pdf https://github.com/user/repository/blob/main/image.jpg https://github.com/user/repository/blob/main/image.png --dest_dir /destination/path --time
 ```
 
 If the files have a specific hash:
 
 ```bash
-python3 script66.py --decrypt_url_batch_file https://github.com/user/repository/blob/<hash>/file1.pdf https://github.com/user/repository/blob/<hash>/image.jpg https://github.com/user/repository/blob/<hash>/image.png --dest_dir /destination/path --time
+python3 gitencryptor.py --decrypt_url_batch_file https://github.com/user/repository/blob/<hash>/file1.pdf https://github.com/user/repository/blob/<hash>/image.jpg https://github.com/user/repository/blob/<hash>/image.png --dest_dir /destination/path --time
 ```
 
 ### 5️⃣ Encrypt and upload an entire directory
 
 ```bash
-python3 script66.py --encrypt_dir /path/to/directory/ --target_repo_url https://github.com/user/repository/ --time
+python3 gitencryptor.py --encrypt_dir /path/to/directory/ --target_repo_url https://github.com/user/repository/ --time
 ```
 
 ### 6️⃣ Download and decrypt an entire repository
 
 ```bash
-python3 script66.py --decrypt_url_repo https://github.com/user/repository/ --dest_dir /destination/path/ --time
+python3 gitencryptor.py --decrypt_url_repo https://github.com/user/repository/ --dest_dir /destination/path/ --time
 ```
 
 
