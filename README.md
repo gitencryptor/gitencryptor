@@ -21,10 +21,10 @@ GitEncryptor is a CLI tool written in Python that encrypts files before uploadin
 
 ### Example `config.json`
 ```json
-{
+\{
   "username": "your-username",
   "token": "your-github-token"
-}
+\}
 
 ## 📜 Command Line Options
 
