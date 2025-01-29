@@ -14,6 +14,22 @@ GitEncryptor is a CLI tool written in Python that encrypts files before uploadin
 
 - Python 3.x: Ensure that Python 3 is installed on your system before using GitEncryptor
 
+
+## 📜 Command Line Options
+
+| Argument                      | Description |
+|--------------------------------|-------------|
+| `--encrypt_file`              | Encrypts and uploads a single file to GitHub. |
+| `--encrypt_batch_file`        | Encrypts and uploads multiple files to GitHub. |
+| `--encrypt_dir`               | Encrypts and uploads an entire directory to GitHub. |
+| `--target_repo_url`           | Specifies the destination GitHub repository URL. |
+| `--decrypt_url_file_repo`     | Downloads and decrypts a single file from GitHub. |
+| `--decrypt_url_batch_file`    | Downloads and decrypts multiple files from GitHub. |
+| `--decrypt_url_repo`          | Downloads and decrypts an entire repository from GitHub. |
+| `--dest_dir`                  | Defines the local directory for saving decrypted files. |
+| `--time`                      | Measures execution time for operations. |
+
+
 ## 🛠 Usage
 
 ### 1️⃣ Encrypt and upload a single file
@@ -64,39 +80,6 @@ python3 script66.py --encrypt_dir /path/to/directory/ --target_repo_url https://
 python3 script66.py --decrypt_url_repo https://github.com/user/repository/ --dest_dir /destination/path/ --time
 ```
 
-## 📜 Command Line Options
-
-| Argument                      | Description |
-|--------------------------------|-------------|
-| `--encrypt_file`              | Encrypts and uploads a single file to GitHub. |
-| `--encrypt_batch_file`        | Encrypts and uploads multiple files to GitHub. |
-| `--encrypt_dir`               | Encrypts and uploads an entire directory to GitHub. |
-| `--target_repo_url`           | Specifies the destination GitHub repository URL. |
-| `--decrypt_url_file_repo`     | Downloads and decrypts a single file from GitHub. |
-| `--decrypt_url_batch_file`    | Downloads and decrypts multiple files from GitHub. |
-| `--decrypt_url_repo`          | Downloads and decrypts an entire repository from GitHub. |
-| `--dest_dir`                  | Defines the local directory for saving decrypted files. |
-| `--time`                      | Measures execution time for operations. |
-
-## 🎯 Complete Example
-
-Encrypt and upload a file:
-
-```bash
-python3 script66.py --encrypt_file "/path/file.pdf" --target_repo_url "https://github.com/user/repository" --time
-```
-
-Download and decrypt a file from GitHub:
-
-```bash
-python3 script66.py --decrypt_url_file_repo "https://github.com/user/repository/blob/main/file.pdf" --dest_dir "/destination/path" --time
-```
-
-Download and decrypt an entire repository:
-
-```bash
-python3 script66.py --decrypt_url_repo "https://github.com/user/repository/" --dest_dir "/destination/path/" --time
-```
 
 ## 🏗 Contributing
 
