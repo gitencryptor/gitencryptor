@@ -93,9 +93,4 @@ python3 gitencryptor.py --encrypt_dir /path/to/directory/ --target_repo_url http
 python3 gitencryptor.py --decrypt_url_repo https://github.com/user/repository/ --dest_dir /destination/path/
 ```
 
-
-## 🏗 Contributing
-
-Feel free to open issues and pull requests!
-
 📜 License: MIT
