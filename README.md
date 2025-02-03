@@ -66,7 +66,7 @@ python3 gitencryptor.py --decrypt_url_file_repo https://github.com/user/reposito
 ### 3️⃣ Encrypt and upload multiple files
 
 ```bash
-python3 gitencryptor.py --encrypt_batch_file /path/file1.pdf /path/image.jpg /path/image.png --target_repo_url https://github.com/user/repository/
+python3 gitencryptor.py --encrypt_batch_file /path/to/file1.pdf /path/to/image.jpg /path/to/image.png --target_repo_url https://github.com/user/repository/
 ```
 
 ### 4️⃣ Download and decrypt multiple files
